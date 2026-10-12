@@ -1,0 +1,21 @@
+:root
+{
+  --color-bolder: pink;
+  --color-texto: #f2f2f2;
+  --color-rgb: rgb(128, 33, 128);
+  --color-prueba: #007900;
+}
+
+body
+{
+    background-color: var(--color-rgb);
+}
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    background: var(--color-bolder);
+    margin: 20px;
+    color: var(--color-texto);
+}
